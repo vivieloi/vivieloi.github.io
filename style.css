@@ -6,7 +6,7 @@
 }
 /* variáveis do css*/
 :root{
-    --cor-primaria: #746bf7;
+    --cor-primaria: #473bef;
     --cor-secundaria: #1209bc;
     --cor-terciaria: #1b035a;
 }
@@ -37,7 +37,7 @@ body{
     box-shadow: 0px 0px 10px var(--cor-primaria);
 }
 /* imagem */
-img{
+.foto{
     width: 250px;
     height: 250px;
 
@@ -46,7 +46,7 @@ img{
 
     transition: 0.5s ;
 }
-img:hover {
+.foto:hover {
     box-shadow: 0px 0px 10px var(--cor-secundaria);
     cursor: pointer;
     transform: scale(1.05);
