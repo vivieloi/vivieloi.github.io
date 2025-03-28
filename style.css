@@ -37,7 +37,7 @@ body{
     box-shadow: 0px 0px 10px var(--cor-primaria);
 }
 /* imagem */
-.foto{
+.foto img{
     width: 250px;
     height: 250px;
 
@@ -55,4 +55,17 @@ label {
     font-size: 2rem;
     font-weight: bold;
     color: var(--cor-terciaria);
+}
+.redes-sociais {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.redes-sociais img {
+    width: 30px;
+}
+.redes-sociais img:hover {
+    transform: scale(1.10);
 }
